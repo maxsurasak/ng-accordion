@@ -17,7 +17,6 @@ toggle {
       color: #FFF; }
 
 .icon {
-  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   float: left; }
   .icon div {
@@ -25,14 +24,12 @@ toggle {
   .icon.chevron {
     height: 100%; }
     .icon.chevron.open {
-      -webkit-transform: rotate(90deg);
       transform: rotate(90deg); }
     .icon.chevron > div {
       border-right-style: solid;
       border-right-color: #FFF;
       border-bottom-style: solid;
       border-bottom-color: #FFF;
-      -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg);
       position: relative;
       height: 50%;
@@ -42,7 +39,6 @@ toggle {
   .icon.plus {
     height: 66.6667%; }
     .icon.plus.open {
-      -webkit-transform: rotate(90deg);
       transform: rotate(90deg); }
       .icon.plus.open div:nth-child(1) {
         border-bottom-width: 0 !important; }
