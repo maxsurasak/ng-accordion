@@ -244,7 +244,7 @@
         }
       }
     }])
-    .directive('ngHtml', x['$compile', function ($compile) {
+    .directive('ngHtml', ['$compile', function ($compile) {
       return {
         restrict: 'A',
         link: function (scope, elem, attrs) {
